@@ -310,3 +310,12 @@
             display: none;
             z-index: 100;
         }
+        
+        @media (max-width:600px) {
+            .nav-items {
+                display: none;
+            }
+            .header-section-img {
+                border: none
+            }
+        }
