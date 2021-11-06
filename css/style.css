@@ -316,6 +316,10 @@
                 display: none;
             }
             .header-section-img {
-                border: none
+                border: none;
+                height: 150px;
+            }
+            .fish-type-list img {
+                height: 150px;
             }
         }
