@@ -3,7 +3,7 @@
         }
         
         *:focus {
-            outline: 2px dotted #ff1d1d;
+            outline: 2px dotted #DE2E54;
             outline-offset: 2px;
         }
         
@@ -43,7 +43,7 @@
         }
         
         span {
-            color: #ff1d1d;
+            color: #DE2E54;
             text-transform: lowercase;
         }
         
@@ -70,7 +70,7 @@
         }
         
         .nav-item a:hover {
-            background-color: #ff1d1d;
+            background-color: #DE2E54;
             color: #fff;
         }
         
@@ -152,4 +152,90 @@
             color: #222;
             font-weight: 600;
             padding: 20px;
+        }
+        
+        .location {
+            text-align: center;
+        }
+        
+        .location p {
+            border-radius: 8px;
+        }
+        
+        .location-title {
+            padding: 30px;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        
+        .contacts {
+            background-color: rgba(85, 131, 173, 0.822);
+            text-align: center;
+            width: 100%;
+            margin-bottom: 35px;
+            border-radius: 8px;
+        }
+        
+        .contact-title {
+            color: #fff;
+            font-weight: 700;
+            font-size: 30px;
+            padding-top: 64px;
+            padding-bottom: 56px;
+        }
+        
+        .tg-link,
+        .call-link,
+        .insta-link {
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 700;
+            color: #fff;
+            border: 2.5px solid #fff;
+            border-radius: 10px;
+            padding: 8px;
+            transition: 0.3s ease;
+            margin-bottom: 50px;
+            margin-left: 15px;
+        }
+        
+        .call-link:hover,
+        .tg-link:hover,
+        .insta-link:hover {
+            color: #fff;
+            background-color: #DE2E54;
+            border-color: none;
+        }
+        
+        .call-link:active,
+        .tg-link:active,
+        .insta-link:active {
+            color: #DE2E54;
+            background-color: #fff;
+        }
+        
+        .links {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .footer-content {
+            background-color: #222;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 25px;
+            padding-bottom: 45px;
+            flex-wrap: wrap;
+        }
+        
+        .footer-nav-item a {
+            color: #fff;
+        }
+        
+        .site-footername {
+            color: #fff;
         }
