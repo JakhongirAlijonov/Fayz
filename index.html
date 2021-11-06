@@ -16,9 +16,15 @@
 <body>
     <header class="main-header ">
         <div class="container header-content">
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
             <div class="site-logo">
                 <a href="#" class="site-name">Fayz <span>baliqxonasi</span></a>
             </div>
+            <div class="brackdrop" id=brackdrop></div>
             <nav class="main-nav">
                 <ul class="nav-items">
                     <li class="nav-item"><a href="#main">Uy</a></li>
@@ -30,6 +36,25 @@
             </nav>
         </div>
     </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="main" class="mobile-link">Uy</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="#gallery" class="mobile-link">Galereya</a>
+            </li>
+            <li class="mobile-nav__item ">
+                <a href="#price" class="mobile-link">Narxlar</a>
+            </li>
+            <li class="mobile-nav__item ">
+                <a href="#location" class="mobile-link">Qanday boriladi?</a>
+            </li>
+            <li class="mobile-nav__item ">
+                <a href="#contact" class="mobile-link">Aloqa</a>
+            </li>
+        </ul>
+    </nav>
     <section id="main">
         <div class="container flex">
             <div class="header-section">
@@ -118,6 +143,7 @@
             </nav>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>

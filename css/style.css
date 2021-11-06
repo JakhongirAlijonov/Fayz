@@ -34,12 +34,35 @@
             padding-bottom: 25px;
         }
         
+        .toggle-button {
+            width: 3rem;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding-top: 0;
+            padding-bottom: 0;
+            vertical-align: middle;
+        }
+        
+        .toggle-button:focus {
+            outline: none;
+        }
+        
+        .toggle-button__bar {
+            width: 100%;
+            height: 0.2rem;
+            background: black;
+            display: block;
+            margin: 0.6rem 0;
+        }
+        
         .site-name {
             text-decoration: none;
             color: #000;
-            font-size: 40px;
+            font-size: 36px;
             font-weight: 700;
             text-transform: uppercase;
+            margin-right: auto;
         }
         
         span {
@@ -63,7 +86,7 @@
             color: #222;
             font-size: 24px;
             font-weight: 400;
-            margin-left: 20px;
+            margin-left: 10px;
             transition: 0.15s ease-in;
             border-radius: 6px;
             padding: 8px;
@@ -238,4 +261,52 @@
         
         .site-footername {
             color: #fff;
+        }
+        
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            z-index: 101;
+            top: 0;
+            left: 0;
+            background: white;
+            width: 80%;
+            height: 100vh;
+        }
+        
+        .mobile-nav__items {
+            width: 90%;
+            height: 100%;
+            list-style: none;
+            margin: 10% auto;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .mobile-nav__item {
+            margin: 1rem 0;
+        }
+        
+        .mobile-nav__item a {
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #222;
+            padding: 8px;
+            border-radius: 8px;
+            margin-top: 24px;
+        }
+        
+        .mobile-nav__item a:hover {
+            background-color: #DE2E54;
+            color: #fff;
+        }
+        
+        .brackdrop {
+            width: 100%;
+            height: 1200px;
+            position: fixed;
+            backdrop-filter: blur(5px);
+            background-color: rgba(0, 0, 0, 0.568);
+            display: none;
+            z-index: 100;
         }
