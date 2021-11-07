@@ -330,10 +330,7 @@
             .toggle-button {
                 display: block;
             }
-        }
-        
-        @media (max-width:1200px) {
-            .toggle-button {
+            .header-section-img {
                 display: none;
             }
         }
