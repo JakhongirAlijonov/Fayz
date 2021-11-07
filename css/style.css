@@ -333,4 +333,8 @@
             .header-section-img {
                 display: none;
             }
+            .gallery-section img {
+                width: 200px;
+                height: 200px;
+            }
         }
